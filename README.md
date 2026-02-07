@@ -1,7 +1,7 @@
 # 🚀 My LeetCode Journey
 
 ![Language](https://img.shields.io/badge/language-Java-orange.svg) 
-![LeetCode Stats](https://leetcard.evelyn.r.shared.is/stats?username=Suthail_alm&theme=dark)
+[![LeetCode Stats](https://leetcode-badge-sage.vercel.app/badge/Suthail_alm?theme=dark)](https://leetcode.com/Suthail_alm/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 Welcome! This repository contains my personal solutions to algorithmic problems from [LeetCode](https://leetcode.com/). 
