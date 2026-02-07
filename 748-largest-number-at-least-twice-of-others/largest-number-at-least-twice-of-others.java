@@ -1,3 +1,12 @@
+/*
+Intuition
+I realized, i need to compare each of the element with the largest one and see whether they are twice as the largest
+
+Approach
+To find the largest element in the array, I thougt i need to sort it. So, I used merge sort. And using the final element in the sorted array, i compared every element except the final one.
+*/
+
+
 class Solution {
     boolean flag;
     public int dominantIndex(int[] nums) {
