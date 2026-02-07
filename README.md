@@ -1,17 +1,24 @@
-# 🚀 LeetCode Solutions
+# 🚀 My LeetCode Journey
 
 ![Language](https://img.shields.io/badge/language-Java-orange.svg) 
-![LeetCode Stats](https://leetcode-stats-six.vercel.app/api?username=YOUR_USERNAME&theme=dark)
+![LeetCode Stats](https://leetcode-stats-six.vercel.app/api?username=Suthail_alm&theme=dark)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-Welcome to my LeetCode repository! This project contains my solutions to various algorithmic problems from [LeetCode](https://leetcode.com/), implemented in **Java**.
+Welcome! This repository contains my personal solutions to algorithmic problems from [LeetCode](https://leetcode.com/). 
 
-I use this repository to track my progress, improve my problem-solving skills, and document my learning journey in Data Structures and Algorithms.
+I focus on writing clean, efficient **Java** code. Each file represents a single problem and includes the full solution along with my thought process.
 
 ## 📂 Repository Structure
 
-The repository is structured as follows:
+All solutions are located in the root directory for easy access. 
 
-- Each solution is in its own file or folder.
-- File names usually correspond to the problem title or ID.
-- Most files include the **Intuition**, **Approach**, and **Complexity Analysis** as comments at the top.
+- **File Naming:** `ProblemName.java` or `ProblemID_ProblemName.java`
+- **Content:** Each file contains the `Solution` class, and I often include the *Intuition*, *Approach*, and *Complexity Analysis* as comments at the top of the file.
+
+```text
+/
+├── TwoSum.java
+├── AddTwoNumbers.java
+├── LongestSubstring.java
+├── README.md
+└── ...
