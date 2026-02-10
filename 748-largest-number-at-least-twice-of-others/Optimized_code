@@ -1,3 +1,9 @@
+/*
+Intuiton - instead of finding the largest element using mergesort, which has higher time complexity, i thought to do a linear search
+Approach - The problem stating that, largest element should be twice as other elements. So i found the second largest element in the array and checked whether 
+the largest one is twice as the 2nd largest one
+*/
+
 class Solution {
     public int dominantIndex(int[] nums) {
         int max1 = -1;
