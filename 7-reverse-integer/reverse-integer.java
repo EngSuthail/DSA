@@ -1,3 +1,20 @@
+/*
+Time: 1 ms (99.77%) | Memory: 42.9 MB (24.81%) - LeetSync
+
+Intuition
+Want to return the reversed number with its sign as well and there is a constraint that if it overflows have to return 0
+
+Approach
+I wanted to iterate through the number in reverse order, so that i can reverse it. For that i changed it to String. To consider the sign, i checked with whether it is smaller or bigger than 0. If it is negative number, i stopped with the number in the iteration. For the overflow, i store all the values as long number in the reverse order.
+
+Complexity
+Time complexity:
+O(log(x)) where x is number of digits in the input
+
+Space complexity:
+O(log(x)) where x is number of digits in the input
+*/
+
 class Solution {
     public int reverse(int x) {
 
