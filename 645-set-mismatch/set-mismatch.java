@@ -1,3 +1,11 @@
+/*
+Time: 14 ms (32.73%) | Memory: 48.1 MB (17.50%) - LeetSync
+Used HashMap to solve this problem.
+First check if the current value is there in the HashMap. If it is trying to access the same key again i can identify it as the duplicate.
+Then again going through the hashmap and finding the missing value.
+Time and space complexity is O(n).
+*/
+
 import java.util.HashMap;
 class Solution {
     public int[] findErrorNums(int[] nums) {
