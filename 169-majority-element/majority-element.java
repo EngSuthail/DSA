@@ -3,6 +3,13 @@ Time: 17 ms (15.42%) | Memory: 51.9 MB (99.52%) - LeetSync
 put each element as a key in Hash Map. Value is considered as occurences. Each time if it is there in the map, value is increased by 1.
 Time Complexity - O(n)
 Space Complexity - O(n)
+
+found that there is an optimal solution for this problem - Boyer-Moore Voting Algorithm
+It works on the principle of cancellation: by maintaining a candidate and a count variable, you increment the count when you see the candidate 
+and decrement it when you see a different element, swapping candidates whenever the count drops to zero. 
+Because the majority element makes up more than half of the array, all other differing elements will effectively "cancel out," 
+guaranteeing the majority element is the final candidate left standing.
+
 */
 class Solution {
     public int majorityElement(int[] nums) {
