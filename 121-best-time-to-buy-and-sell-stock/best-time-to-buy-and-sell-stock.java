@@ -1,3 +1,12 @@
+/*
+Intuition - need to find the highest difference from this array using its elements, and that difference has to come by subtracting from 
+right indexed number(Highest) with left indexed number(least)
+Approach - take two pointers, one will move element by element starting from index 1, and other will stay at least number until found another least number
+
+Time complexity - O(n)
+Space complexity - O(1)
+*/
+
 class Solution {
     public int maxProfit(int[] prices) {
         int l = 0, r = 1;
