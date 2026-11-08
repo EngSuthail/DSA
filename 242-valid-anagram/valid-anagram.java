@@ -10,11 +10,7 @@ class Solution {
         }
         for(char c:t.toCharArray()){
             map.put(c, map.getOrDefault(c,0) - 1);
-        }
-        for(int count: map.values()){
-            if(count != 0){
-                return false;
-            }
+            if(map.get(c) < 0) return false;
         }
         return true;
     }
