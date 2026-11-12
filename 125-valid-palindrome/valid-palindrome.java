@@ -8,7 +8,7 @@ class Solution {
                 char a = Character.toLowerCase(s.charAt(left));
                 char b = Character.toLowerCase(s.charAt(right)); 
                 if ( a != b) return false;
-                else if( a == b ) {
+                else {
                     left++;
                     right--;
                 }
