@@ -1,0 +1,14 @@
+class Solution {
+    public int[] twoSum(int[] numbers, int target) {
+        int l = 0, r = numbers.length - 1;
+        for(int i = 1; i < numbers.length; i++){
+            int sum = numbers[l] + numbers[r];
+            if(sum > target){
+                r--;
+            } else if (sum < target){
+                l++;
+            }
+        }
+        return new int[]{l+1, r+1};
+    }
+}
