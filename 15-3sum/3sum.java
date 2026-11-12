@@ -3,7 +3,8 @@ class Solution {
         List<List<Integer>> list = new ArrayList<>();
         Arrays.sort(nums);
         for(int i = 0; i < nums.length; i++){
-            if(i > 0 && nums[i] == nums[i-1]){ continue;}
+            if(i > 0 && nums[i] == nums[i-1]){ continue;} // skip duplicate values for the fixed number:
+                                                        // same nums[i] would find the same triplets again
             int l = i + 1, r = nums.length - 1;
             while (l < r) {
                 int sum = nums[i] + nums[l] + nums[r];
@@ -15,7 +16,7 @@ class Solution {
                     list.add(Arrays.asList(nums[i], nums[l], nums[r]));
                     r--;
                     l++;
-                    while (l < r && nums[l] == nums[l - 1]) l++;
+                    while (l < r && nums[l] == nums[l - 1]) l++; // after a match, skip duplicate values for l:// same nums[l] with the same nums[i] would repeat this triplet
                 }
                 
             }
